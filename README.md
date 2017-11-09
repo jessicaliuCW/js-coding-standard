@@ -1,6 +1,7 @@
 # JavaScript Style Guide
 
-## Variable Names
+## 命名方式
+
 We use camelCase for identifier names (variables and functions).
 
 All names start with a letter.
