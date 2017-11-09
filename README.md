@@ -1,5 +1,4 @@
-# JavaScript Style Guide and Coding Conventions
-### JavaScript Coding Conventions
+# JavaScript Style Guide
 
 ## Variable Names
 At W3schools we use camelCase for identifier names (variables and functions).
