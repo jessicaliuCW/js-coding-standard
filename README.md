@@ -1,7 +1,7 @@
 # JavaScript Style Guide
 
 ## Variable Names
-At W3schools we use camelCase for identifier names (variables and functions).
+We use camelCase for identifier names (variables and functions).
 
 All names start with a letter.
 
