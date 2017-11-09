@@ -1,19 +1,6 @@
 # JavaScript Style Guide and Coding Conventions
 ### JavaScript Coding Conventions
 
-Coding conventions are style guidelines for programming. They typically cover:
- 
-* Naming and declaration rules for variables and functions.
-* Rules for the use of white space, indentation, and comments.
-* Programming practices and principles
-
-Coding conventions secure quality:
-
-* Improves code readability
-* Make code maintenance easier
-
-Coding conventions can be documented rules for teams to follow, or just be your individual coding practice.
-
 ## Variable Names
 At W3schools we use camelCase for identifier names (variables and functions).
 
