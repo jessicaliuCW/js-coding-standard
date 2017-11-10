@@ -259,7 +259,7 @@ var x = "5" - 7;     // x.valueOf() is -2,  typeof x is a number
 var x = 5 - "x";     // x.valueOf() is NaN, typeof x is a number
 ```
 
-## Use === Comparison
+## 使用 === 比較
 The == comparison operator always converts (to matching types) before comparison.
 
 The === operator forces comparison of values and type:
@@ -285,7 +285,7 @@ function myFunction(x, y) {
 }
 ```
 
-## End Your Switches with Defaults
+## 使用default完結switch
 Always end your switch statements with a default. Even if you think there is no need for it.
 ```javascript=
 switch (new Date().getDay()) {
@@ -315,7 +315,7 @@ switch (new Date().getDay()) {
 }
 ```
 
-## Avoid Using eval()
+## 避免使用 eval()
 The eval() function is used to run text as code. In almost all cases, it should not be necessary to use it.
 
 Because it allows arbitrary code to be run, it also represents a security problem.
