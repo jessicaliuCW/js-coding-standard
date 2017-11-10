@@ -1,23 +1,5 @@
 # JavaScript Style Guide
 
-## 命名方式
-
-We use camelCase for identifier names (variables and functions).
-
-All names start with a letter.
-
-At the bottom of this page, you will find a wider discussion about naming rules.
-
-```javascript=
-firstName = "John";
-lastName = "Doe";
-
-price = 19.90;
-tax = 0.20;
-
-fullPrice = price + (price * tax);
-```
-
 ## 空隔包覆運算符號
 Always put spaces around operators ( = + - * / ), and after commas:
 ```javascript=
@@ -93,7 +75,7 @@ Short objects can be written compressed, on one line, using spaces only between 
 ```javascript=
 var person = {firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"};
 ```
-## Line Length < 80
+## 行數長度 < 80
 For readability, avoid lines longer than 80 characters.
 
 If a JavaScript statement does not fit on one line, the best place to break it, is after an operator or a comma.
@@ -101,7 +83,7 @@ If a JavaScript statement does not fit on one line, the best place to break it, 
 document.getElementById("demo").innerHTML =
     "Hello Dolly.";
 ```
-## Naming Conventions
+## 命名規則
 Always use the same naming convention for all your code. For example:
 
 * Variable and function names written as camelCase
@@ -226,10 +208,10 @@ var i;
 // Use later
 for (i = 0; i < 5; i++) {
 ```
-## Never Declare Number, String, or Boolean Objects
+## 不要宣告 Number, String, 或是 Boolean 物件
 Always treat numbers, strings, or booleans as primitive values. Not as objects.
 
-## Don't Use new Object()
+## 不要使用 new Object()
 Use {} instead of new Object()
 Use "" instead of new String()
 Use 0 instead of new Number()
