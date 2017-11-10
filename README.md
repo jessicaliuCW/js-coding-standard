@@ -18,20 +18,20 @@ tax = 0.20;
 fullPrice = price + (price * tax);
 ```
 
-## Spaces Around Operators
+## 空隔包覆運算符號
 Always put spaces around operators ( = + - * / ), and after commas:
 ```javascript=
 var x = y + z;
 var values = ["Volvo", "Saab", "Fiat"];
 ```
-## Code Indentation
+## 程式碼排縮
 Always use 4 spaces for indentation of code blocks:
 ```javascript=
 function toCelsius(fahrenheit) {
     return (5 / 9) * (fahrenheit - 32);
 }
 ```
-## Statement Rules
+## 寫法規則
 General rules for simple statements:
 
 * Always end a simple statement with a semicolon.
@@ -72,7 +72,7 @@ if (time < 20) {
 }
 ```
 
-## Object Rules
+## 物件規則
 General rules for object definitions:
 
 * Place the opening bracket on the same line as the object name.
