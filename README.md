@@ -13,7 +13,7 @@ function toCelsius(fahrenheit) {
     return (5 / 9) * (fahrenheit - 32);
 }
 ```
-## 寫法規則
+## statements規則
 General rules for simple statements:
 
 * Always end a simple statement with a semicolon.
@@ -175,7 +175,7 @@ Local variables must be declared with the var keyword, otherwise they will becom
 
 **Strict mode does not allow undeclared variables.**
 
-## Declarations on Top
+## 變數放在上面
 It is a good coding practice to put all declarations at the top of each script or function.
 
 This will:
@@ -254,7 +254,7 @@ The === operator forces comparison of values and type:
 1 === "1";      // false
 1 === true;     // false
 ```
-## Use Parameter Defaults
+## 預設參數值
 If a function is called with a missing argument, the value of the missing argument is set to undefined.
 
 Undefined values can break your code. It is a good habit to assign default values to arguments.
