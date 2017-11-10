@@ -134,14 +134,14 @@ var obj = getElementById("demo")
 ```
 If possible, use the same naming convention (as JavaScript) in HTML.
 
-## File Extensions
+## 檔案屬性
 HTML files should have a .html extension (not .htm).
 
 CSS files should have a .css extension.
 
 JavaScript files should have a .js extension.
 
-## Use Lower Case File Names
+## 檔案名使用小寫
 Most web servers (Apache, Unix) are case sensitive about file names:
 
 london.jpg cannot be accessed as London.jpg.
@@ -159,7 +159,7 @@ To avoid these problems, always use lower case file names (if possible).
 
 **Avoid global variables,  avoid new,  avoid  ==,  avoid eval()**
 
-## Avoid Global Variables
+## 避免全域變數
 Minimize the use of global variables.
 
 This includes all data types, objects, and functions.
@@ -168,14 +168,14 @@ Global variables and functions can be overwritten by other scripts.
 
 Use local variables instead, and learn how to use closures.
 
-## Always Declare Local Variables
+## 盡量宣告區域變數
 All variables used in a function should be declared as local variables.
 
 Local variables must be declared with the var keyword, otherwise they will become global variables.
 
 **Strict mode does not allow undeclared variables.**
 
-## 變數放在上面
+## 變數放在前面
 It is a good coding practice to put all declarations at the top of each script or function.
 
 This will:
